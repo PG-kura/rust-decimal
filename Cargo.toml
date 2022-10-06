@@ -31,13 +31,13 @@ bytes = { default-features = false, optional = true, version = "1.0" }
 diesel1 = { default-features = false, optional = true, package = "diesel", version = "1.4" }
 diesel2 = { default-features = false, optional = true, package = "diesel", version = "2.0.0-rc.1" }
 num-traits = { default-features = false, features = ["i128"], version = "0.2" }
-postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "reduce-log2", default-features = false, optional = true }
+postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "extract-raw-fd", default-features = false, optional = true }
 rand = { default-features = false, optional = true, version = "0.8" }
 rkyv = { default-features = false, features = ["size_32", "std"], optional = true, version = "0.7" }
 rocket = { default-features = false, optional = true, version = "0.5.0-rc.1" }
 serde = { default-features = false, optional = true, version = "1.0" }
 serde_json = { default-features = false, optional = true, version = "1.0" }
-tokio-postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "reduce-log2", default-features = false, optional = true }
+tokio-postgres = { git = "https://github.com/PG-kura/rust-postgres.git", branch = "extract-raw-fd", default-features = false, optional = true }
 
 [dev-dependencies]
 bincode = { default-features = false, version = "1.0" }
